@@ -1,0 +1,26 @@
+.instagram-info{
+    /* background-color: rgb(255, 0, 170); */
+}
+
+.instagram-info .followers::after{
+    content: "followers";
+}
+.instagram-info .avg-like::after{
+    content: "Avg-like";
+}
+.instagram-info .avg-comment::after{
+    content: "Avg-comment";
+}
+.instagram-info .eng-rate:after{
+    content: "Eng-";
+}
+.twitter-info{
+    /* background-color: aqua; */
+}
+.youtube-info{
+    /* background-color: rgb(255, 94, 0); */
+}
+
+.instagram-info, .twitter-info, .youtube-info{
+    height: 50px;
+}
